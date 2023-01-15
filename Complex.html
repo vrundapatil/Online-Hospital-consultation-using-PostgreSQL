@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Doctor page</title>
+    </head>
+    <body>
+       <P>
+        Select all the medicine names which is given by the doctor whose id is 6
+       </P>
+       <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">medicine_name</th>
+          </tr>
+        </thead>
+          {% for i in data %}
+          <tr>
+            {% for j in i %}
+              <td>{{j}}</td>
+            {% endfor %}
+          </tr>
+          {% endfor %}
+    </table>
+        
+    </body>
+</html>

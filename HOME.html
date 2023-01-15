@@ -1,0 +1,36 @@
+<html>
+<head>
+<meta name="viewport" content="width-device-width , initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+<body style="background-image: url('C:\Users\surab\DBMS\index\Images\Background.jpg');">
+<link rel="stylesheet" href="../static/style.css">
+<p > ONLINE CONSULTATION </p>
+
+<img src="../static/images/Doctor.jpg" alt="NONE" align="right" width="150px" height="100px">
+  
+  <div class="container">
+    <h1>Please login</h1>
+    <br>
+    <form action="/login" method="post">
+      <input type="text" placeholder="Username" name="username" value="{{
+        request.form.username }}">
+       <input type="password" placeholder="Password" name="password" value="{{
+        request.form.password }}">
+      <input class="btn btn-default" type="submit" value="Login">
+    </form>
+    {% if error %}
+      <p class="error"><strong>Error:</strong> {{ error }}
+    {% endif %}
+  </div>
+  <div>
+    <h1> Are you new here? </h1>
+    <a href="/New_Patient">New_Patient</a>
+    <h3>        </h3>
+
+
+    <a href="/New_Doctor">New_Doctor</a>
+  </div> 
+</body>
+</head>
+</html>

@@ -1,0 +1,30 @@
+<html>
+<head>
+<meta name="viewport" content="width-device-width , initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+<body style="background-image: url('Background.jpg');">
+<link rel="stylesheet" href="../static/style.css">
+
+<p> REGISTRATION </p>
+<form action="{{ url_for('New_Doctor')}}" method="POST">
+  
+    <img src="Images/Doctor.jpg" alt="NONE" align="right" width="150px" height="150px">
+   
+    <label for="d_id"> Doctor Id:</label>
+    <input type="text" name="d_id"><br><br>
+      <label for="d_name"> Name:</label>
+      <input type="text"  name="d_name"><br><br>
+	  <label for="d_phone"> Phone_No:</label>
+      <input type="text"  name="d_phone"><br><br>
+	  <label for="d_addr"> Address:</label>
+      <input type="text" name="d_addr"><br><br>
+	  <label for="avaliable_hours"> Avaliable_Hours:</label>
+      <input type="text"  name="avaliable_hours"><br><br>
+	  
+      <input type="submit" value="Submit" href=>
+ 
+     
+    </form>
+</head>
+</html>

@@ -1,0 +1,142 @@
+
+.hero1{
+background: url(Images/Clinic.jpg) no-repeat center;
+background-size: cover;
+height: 500px;
+position: relative;
+margin-top: -20px;
+}
+
+form{
+color:blue;
+font: Arial;
+border: 1px solid black;
+background-color:#45b6fe;
+padding:10px;
+}
+h3{
+color:Red;
+text-font:Times Roman;
+text-align: left;
+}
+button.home{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 29px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 835px;
+  margin-top: -75px;
+  }
+
+p.g{
+	color:red;
+	font: Calibri;
+	margin-top:0px;
+	margin-left:50px;
+	margin-top:-40px;
+	font-size:25px;
+}
+
+p.q{
+	color:black;
+	font: Calibri;
+	margin-top:0px;
+	margin-left:90px;
+	margin-top:-30px;
+	font-size:25px;
+}
+div.quote{
+	font-size: 12px;
+ border: 5px outset red;
+  background-color: lightblue;
+text-align: center;}
+
+
+div.time{
+	text-align: left;
+	border: 2px;
+font-size:12px;}
+
+p.contact{
+	text-align: right;
+font-size: 12px;
+margin-top: -20px;}
+
+button.home{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 29px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 835px;
+  margin-top: -75px;
+  }
+
+button.about{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 29px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 950px;
+  margin-top: -75px;}
+  
+  button.fac{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 29px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 1100px;
+  margin-top: -75px;}
+  
+  .hero2{
+background: url(Images/aboutus.jpg) no-repeat center;
+background-size: cover;
+height: 500px;
+position: relative;
+margin-top: -20px;
+}
+div.aboutus{
+border: solid black 2px;
+width:1000px;
+margin-left:120px;
+background-image:url(Images/aboutusback.jpg) no-repeat center;
+background-size:cover;}
+
+.hero3{
+background: url(Images/services.jpg) no-repeat center;
+background-size: cover;
+height: 500px;
+position: relative;
+margin-top: -20px;
+}
+
+li.services{
+	background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 29px;
+  text-align: center;
+  display: inline-block;
+font-size: 16px;}
+
+p.ser{
+	text-align:center;
+font-family:Times New Roman;
+background-color:white;}
+	
+
+
+
+
+
